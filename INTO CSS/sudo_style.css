@@ -1,0 +1,85 @@
+/*advance selector*/
+
+/*1.attribute selector*/
+
+input[type="text"]{
+
+border:2px solid red;
+
+}
+
+input[type="password"]{
+
+border:2px dashed green;
+
+}
+
+/*2.child selector*/
+
+ul>li{
+
+color:blue;
+
+}
+
+/*3.Sbiling selector*/
+
+h1+p+p{
+
+background-color: aqua;
+
+}
+
+/*pseudo class*/
+
+/*1.hover*/
+
+a:hover{
+
+color:brown;
+
+}
+
+/*2. nth-child*/
+
+li:nth-child(2){
+
+background-color: red;
+
+}
+
+/*3.not selector*/
+
+div:not(.c2){
+
+font-size: 60px;
+
+}
+
+/*pseudo elements*/
+
+/*1. before*/
+
+a::before{
+
+content:"*";
+
+color:red;
+
+}
+
+a::after {
+
+content: "*";
+
+color: red;
+
+}
+
+p::first-letter{
+
+color:orange;
+
+font-size:30px;
+
+}
