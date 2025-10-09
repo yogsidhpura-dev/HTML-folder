@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                right: 20px;
+                border: 3px solid blue;
+
+            }
+
+            .absolute {
+                position: absolute;
+                left: 50px;
+                border: 3px solid rgb(red, green, blue);
+            }
+            .relative{
+                position: relative;
+                left: 100px;
+                border: 3px solid yellow;
+            }
+            .fixed{
+                position: fixed;
+                top: 20px;
+                left: 40px;
+                width: 300px;
+                border: 3px solid orange;
+            }
+            .sticky{
+                position: sticky;
+                top:40px ;
+                left: 400px;
+                width: 100px;
+                border: 3px solid yellowgreen;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> This is the heading</h1>
+        <div> with no position property</div>
+        <div class="sticky"> with sticky position property</div>
+        <div class="relative"> with relative position property
+            <div class="absolute"> with absolute position property</div>
+        </div>
+        <div class="fixed">with fixed position property</div>
+
+    </body>
+</html>
